@@ -1,0 +1,1 @@
+# i3wmi3status
