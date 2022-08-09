@@ -3,3 +3,4 @@ Dotfiles de mí configuración de i3 para no perderlos, subidos junto con mi fon
 También i3status
 Instalar feh
 Instalar Ranger
+![alt text](http://github.com/CarlosCastillo18/i3wmi3status/blob/main/Screenshoot.png)
