@@ -55,7 +55,7 @@ bindsym XF86MonBrightnessUp exec brightnessctl set 8%+
 
 #captura de pantalla
 
-bindsym Print exec gnome-screenshot -i
+bindsym Print exec spectacle
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -85,7 +85,7 @@ bindsym $mod+m exec Thunar
 
 #fondo de pantalla
 
-#bindsym $mod+g exec /home/charli/Descargas/Fondos_de_pantalla/wallpaper.sh
+#bindsym $mod+g exec /home/charli/Descargas/Fondos_de_pantalla/stgw.jpg
 
 #correo
 
@@ -246,7 +246,7 @@ bar {
 	background #000000
 	statusline #ac58fa
 	separator #000000
-	#		    border   backgr   text
+	#		   border   backgr   text
 	focused_workspace   #444444  #d0a9f5  #8258FA
 	active_workspace    #333333  #5f676a  #ffffff
 	inactive_workspace  #333333  #444444  #ffffff
@@ -268,8 +268,10 @@ gaps inner 5
 
 for_window [class= "^·*"] border pixel 1
 
-exec feh --bg-fill /home/charli/Descargas/Fondos_de_pantalla/photo_2022-09-11_22-23-38.jpg
+exec feh --bg-fill /home/charli/Descargas/Fondos_de_pantalla/stgw.jpg
+
 exec picom -C -b
+
 #exec ~/.config/i3/terminal.sh
 assign [class="firefox"] $ws2
 assign [class="Thunar"] $ws3
